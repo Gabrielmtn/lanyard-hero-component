@@ -185,7 +185,7 @@ For more than one paragraph, or links that open in a new tab, write them as chil
 </lanyard-hero>
 ```
 
-Its colors come from `--lanyard-accent` (filled button), `--lanyard-accent-ink` (text on it), `--lanyard-ink` and `--lanyard-muted`; `--lanyard-hero-bg` sets the panel, `--lanyard-hero-max` the width it lines up with (default 1180px) and `--lanyard-hero-pad` the space around it. Restyle anything else with `::part(hero-panel)`, `::part(hero-title)`, `::part(hero-text)` and so on.
+Its colors come from `--lanyard-accent` (filled button), `--lanyard-accent-ink` (text on it), `--lanyard-ink` and `--lanyard-muted`; `--lanyard-hero-bg` sets the panel, `--lanyard-hero-max` the width it lines up with (default 1180px) and `--lanyard-hero-pad` the space around it. Restyle anything else with `::part(hero-panel)`, `::part(hero-title)`, `::part(hero-text)` and so on. The first link gets an arrow; hide it with `::part(hero-arrow) { display: none; }`.
 
 ## Badges: `<lanyard-badge>`
 
